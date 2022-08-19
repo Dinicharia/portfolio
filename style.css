@@ -158,11 +158,12 @@ body {
 }
 
 .button {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
   box-sizing: border-box;
 
   /* Auto layout */
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
@@ -195,4 +196,122 @@ body {
 
   /* Primary/B500 */
   color: #396df2;
+}
+
+.getresume {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  width: 138px;
+  height: 24px;
+
+  /* identical to box height, or 141% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Primary/B500 */
+  color: #396df2;
+}
+
+.frame12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 327px;
+  height: 320.15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lang {
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.nbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  right: 26px;
+  border-radius: 8px;
+}
+
+.langlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 327px;
+  height: 248.15px;
+}
+
+.frame9 {
+  display: flex;
+  -ms-flex-align: center;
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 5;
+  gap: 20px;
+}
+
+.langicon {
+  display: flex;
+  -ms-flex-align: center;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2 - 0.36px);
+
+  /* Neutrals/N0 */
+
+  border: 1px solid #fff;
+}
+
+.lang1 {
+  font-style: normal;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.separator {
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Neutrals/N40 */
 }
