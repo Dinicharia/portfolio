@@ -2,7 +2,7 @@
 
 # Daniel's Porfolio
 
-> DA portfolio to showcase my skills in web programing.
+> Portfolio to showcase my skills in web programing.
 
 
 ## Built With
