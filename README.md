@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Daniel's Porfolio
 
-> Description the project.
+> DA portfolio to showcase my skills in web programing.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- css
 
 ## Live Demo (if available)
 
