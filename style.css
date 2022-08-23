@@ -246,13 +246,6 @@ body {
   right: 0;
 }
 
-.logo {
-  font-size: medium;
-  white-space: nowrap;
-  max-width: 20%;
-  color: #6071fe;
-}
-
 .links,
 ul {
   list-style: none;
