@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="toolbar"><a href="#"><img src="img/MyLogo.png" alt="logo"></a>
-        <nav>             
-            <a href="#"> <img src="img/iconmenu.png" alt="iconmenu"></a>          
-        </nav>
-    </div>
+    <header class="nav">
+        <nav class="navigation">
+            <img class="logo" src="img/MyLogo.png">
+            <ul class="links">
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img class="hamburger" src="img/iconmenu.png" alt="">
+        </nav>  
     </header>
         <section class="main">
             <div class="container">
@@ -145,9 +149,16 @@
                         <li class="text"><span class="skilltext">Skills</span> <img src="img/RButton.png" alt="skills"></li>
                         <li class="separate"></li>
                     </ul>
-                    
-                    
-                
+ 
         </section>  
+        
+        <section class="contact">
+            <form action="">
+                <input type="text" placeholder="Enter your name" maxlength="30">
+                <input type="email" placeholder="Enter your email">
+                <textarea placeholder="Write yoyur message heer" maxlength="500"> </textarea>
+                <input type="submit" placeholder="Get in Touch">
+            </form>
+        </section>
 </body>
 </html>
