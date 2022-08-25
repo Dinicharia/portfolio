@@ -2,7 +2,8 @@
 
 # Daniel's Porfolio
 
-> Portfolio to showcase my skills in web programing.
+This section of the project involved adding contact form to the portfolio project.
+The form integrates https://formspree.io/ as our collection tool for feedbacks.
 
 
 ## Built With
