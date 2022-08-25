@@ -2,7 +2,8 @@
 
 # Daniel's Porfolio
 
-> Portfolio to showcase my skills in web programing.
+Portfolio to showcase my skills in web programing.
+Use media queries to display my website properly on desktop
 
 
 ## Built With
