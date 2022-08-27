@@ -166,6 +166,11 @@ body {
   color: white;
 }
 
+.work-link:active {
+  background-color: #131255;
+  color: white;
+}
+
 .about-section {
   display: flex;
   padding: 142px;
@@ -250,6 +255,11 @@ hr {
   color: white;
 }
 
+.about-work-link:active {
+  background-color: #131255;
+  color: white;
+}
+
 .text {
   display: flex;
   justify-content: space-between;
@@ -327,6 +337,11 @@ textarea {
 
 .submit:hover {
   background-color: #6671d9;
+  color: white;
+}
+
+.submit:active {
+  background-color: #131255;
   color: white;
 }
 
