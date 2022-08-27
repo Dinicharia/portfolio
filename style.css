@@ -169,7 +169,7 @@ body {
 }
 
 .work-link:active {
- background: #2230D2;
+  background: #2230d2;
   color: white;
 }
 
@@ -258,7 +258,7 @@ hr {
 }
 
 .about-work-link:active {
-  background: #2230D2;
+  background: #2230d2;
   color: white;
 }
 
@@ -343,7 +343,7 @@ textarea {
 }
 
 .submit:active {
-  background: #2230D2;
+  background: #2230d2;
   color: white;
 }
 
@@ -420,7 +420,6 @@ textarea {
 
   .works {
     display: grid;
-
     width: 100%;
     gap: 102px;
     align-items: center;
