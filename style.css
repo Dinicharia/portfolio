@@ -108,6 +108,8 @@ body {
 }
 
 .work {
+  margin-left: 142px;
+  margin-right: 142px;
   padding: 24px;
   border: gray solid 0.3px;
   border-radius: 20px;
@@ -167,7 +169,7 @@ body {
 }
 
 .work-link:active {
-  background-color: #131255;
+ background: #2230D2;
   color: white;
 }
 
@@ -256,7 +258,7 @@ hr {
 }
 
 .about-work-link:active {
-  background-color: #131255;
+  background: #2230D2;
   color: white;
 }
 
@@ -341,11 +343,11 @@ textarea {
 }
 
 .submit:active {
-  background-color: #131255;
+  background: #2230D2;
   color: white;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
   html,
   body {
     max-width: 100%;
@@ -418,6 +420,7 @@ textarea {
 
   .works {
     display: grid;
+
     width: 100%;
     gap: 102px;
     align-items: center;
@@ -591,7 +594,7 @@ textarea {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
   html,
   body {
     max-width: 100%;
@@ -837,7 +840,7 @@ textarea {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
   html,
   body {
     max-width: 100%;
