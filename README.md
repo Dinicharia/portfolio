@@ -4,13 +4,13 @@
 
 This section of the project involved adding contact form to the portfolio project.
 The form integrates https://formspree.io/ as our collection tool for feedbacks.
+I also designed this website to be compatible with various screen sizes depending on the device.
 
 
 ## Built With
 
 - html
 - css
-
 
 
 
